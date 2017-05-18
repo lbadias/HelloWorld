@@ -21,7 +21,7 @@
         NSLog(@"Hello");
     }
     
-    NSLog(Testing compilation error);
+    NSLog(@"Testing compilation error");
 }
 
 - (void)didReceiveMemoryWarning {
