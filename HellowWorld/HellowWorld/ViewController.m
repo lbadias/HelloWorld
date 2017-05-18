@@ -20,6 +20,8 @@
     for (int i = 0; i < 10; i++) {
         NSLog(@"Hello");
     }
+    
+    NSLog(Testing compilation error);
 }
 
 - (void)didReceiveMemoryWarning {
