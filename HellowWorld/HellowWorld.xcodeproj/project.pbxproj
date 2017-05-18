@@ -110,6 +110,7 @@
 				TargetAttributes = {
 					443214A31ECC886A00A0D23A = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3FB3KA6K7Z;
 					};
 				};
 			};
@@ -263,10 +264,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = HellowWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.HellowWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.digitrack.acervo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a752d19f-d466-403d-9c12-8c7f1eeddb5f";
 			};
 			name = Debug;
 		};
@@ -274,10 +277,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = HellowWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = br.com.HellowWorld;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.digitrack.acervo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4c99fc03-44fe-49c1-855c-cdbf07d7bb27";
 			};
 			name = Release;
 		};
@@ -300,6 +305,7 @@
 				443214BD1ECC886A00A0D23A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
